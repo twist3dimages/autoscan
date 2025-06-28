@@ -10,7 +10,7 @@ require (
 	github.com/l3uddz/bernard v0.5.1
 	github.com/m-rots/stubbs v1.1.0
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible // indirect
-	github.com/natefinch/lumberjack v2.0.0+incompatible
+	github.com/natefinch/lumberjack v2.2.1+incompatible
 	github.com/oriser/regroup v0.0.0-20210730155327-fca8d7531263
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/rs/zerolog v1.28.0
