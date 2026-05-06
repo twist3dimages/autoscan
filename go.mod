@@ -1,11 +1,11 @@
 module github.com/cloudbox/autoscan
 
-go 1.19
+go 1.23
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/alecthomas/kong v0.6.1
-	github.com/fsnotify/fsnotify v1.5.4
+	github.com/fsnotify/fsnotify v1.10.1
 	github.com/go-chi/chi/v5 v5.0.7
 	github.com/l3uddz/bernard v0.5.1
 	github.com/m-rots/stubbs v1.1.0
@@ -16,7 +16,7 @@ require (
 	github.com/rs/zerolog v1.28.0
 	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/sync v0.0.0-20220907140024-f12130a52804
-	golang.org/x/sys v0.0.0-20220915200043-7b5979e65e41 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9
 	golang.org/x/tools v0.1.12 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
