@@ -1,12 +1,12 @@
 module github.com/cloudbox/autoscan
 
-go 1.19
+go 1.23
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/alecthomas/kong v0.6.1
 	github.com/fsnotify/fsnotify v1.5.4
-	github.com/go-chi/chi/v5 v5.0.7
+	github.com/go-chi/chi/v5 v5.3.0
 	github.com/l3uddz/bernard v0.5.1
 	github.com/m-rots/stubbs v1.1.0
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible // indirect
