@@ -32,7 +32,7 @@ jobs:
 
       - name: qemu
         if: github.event.pull_request.head.repo.fork == false
-        uses: docker/setup-qemu-action@v2
+        uses: docker/setup-qemu-action@e81a89b1732b9c48d79cd809d8d81d79c4647a18 # v2
 
       - name: buildx
         if: github.event.pull_request.head.repo.fork == false
