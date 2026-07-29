@@ -16,7 +16,7 @@ jobs:
     steps:
       # dependencies
       - name: goreleaser
-        uses: goreleaser/goreleaser-action@v3
+        uses: goreleaser/goreleaser-action@336e29918d653399e01bb96603c6ffead9078321 # v3
         with:
           install-only: true
           version: 1.7.0
