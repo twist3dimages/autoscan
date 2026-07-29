@@ -4,6 +4,8 @@ import (
 	_ "embed"
 	"net/http"
 	"path"
+	"path/filepath"
+	"strings"
 	"time"
 
 	"github.com/rs/zerolog/hlog"
@@ -75,7 +77,7 @@ func (h handler) ServeHTTP(rw http.ResponseWriter, r *http.Request) {
 
 	for _, dir := range directories {
 		// Rewrite the path based on the provided rewriter.
-		folderPath := h.rewrite(path.Clean(dir))
+		folderPath := h.rewrite(filepath.FromSlash(path.Clean("/" + strings.TrimLeft(dir, "/"))))
 
 		scans = append(scans, autoscan.Scan{
 			Folder:   folderPath,
